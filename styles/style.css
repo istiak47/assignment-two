@@ -1,0 +1,121 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* COMMON or UTILITIES */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+/* TOURNAMENT NAME SECTION  */
+
+
+.section-one{
+    background-color: #2D25A0; 
+    margin-bottom: 70px;
+    margin-top: 0px;
+    
+}
+.first-part{
+    display: flex;
+    width: 1440px;
+    height: 677px;
+    padding-top: 135px;
+    padding-right: 140.99px;
+    padding-bottom: 86px;
+    padding-left: 156px;
+}
+.text-part, .image-part{
+    width: 50%;
+}
+.text-part{
+    padding-top: 154px;
+}
+.text-part h1{
+    color: white;
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 19px;   
+}
+.image-part img{
+    width: 556.01px;
+    height: 438px;
+    padding-top: 135px;
+    padding-right: 144.99px;
+    padding-bottom: 86px;
+    padding-left: 102px;
+}
+.arrow{
+    display: flex;
+    font-size: 16px;
+    width: 168px;
+    height: 44px;
+    color: white;
+    background-color: #E02C6D;
+    justify-content: center;
+    align-items: center;    
+}
+.arrow-align{
+    margin-left: 8px;
+}
+.fa-arrow-right{
+    color: white;
+}
+
+
+
+/* PLAYERS STYLE  */
+/* .players-info-section{
+    padding-left: 180px;
+    padding-right: 210px;
+} */
+.players{
+    padding-left: 180px;
+    padding-right: 210px;
+}
+.three-players-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    padding-bottom: 30px;
+}
+.player{
+    border-right: 1px solid white;
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px #6C6C6C;
+}
+/* .player{
+    background-color: white;
+    width: 330px;
+    height: 474px;
+    border:5px white;
+    padding: 15px;
+    border-image: none;
+    box-shadow: 15px #6C6C6C;
+} */
+.player .pic img{
+    width: 300px;
+    height: 256px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 16px;
+}
+.player-info{
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;    
+}
+.player-info h2{
+    font-size: 28px;
+    text-align: left;
+}
+.player-info p{
+    font-size: 16px;
+    text-align: left;
+    
+}
