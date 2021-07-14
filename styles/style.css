@@ -18,7 +18,7 @@ body{
     margin-left: -8px;
     
 }
-.first-part{
+/* .first-part{
     display: flex;
     width: 1440px;
     height: 677px;
@@ -26,9 +26,20 @@ body{
     padding-right: 140.99px;
     padding-bottom: 86px;
     padding-left: 156px;
-}
-.text-part, .image-part{
+} */
+/* .text-part, .image-part{
     width: 40%;
+} */
+.first-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 102px;
+    width: 1440px;
+    height: 677px;
+    padding-top: 135px;
+    padding-right: 140.99px;
+    padding-bottom: 86px;
+    padding-left: 156px;
 }
 .text-part{
     padding-top: 154px;
@@ -62,10 +73,14 @@ body{
 .image-part img{
     width: 556.01px;
     height: 438px;
-    padding-top: 135px;
+    /* padding-top: 135px;
     padding-right: 144.99px;
     padding-bottom: 86px;
-    padding-left: 102px;
+    padding-left: 102px; */
+}
+.image-part:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
 }
 
 
@@ -168,4 +183,40 @@ body{
     width: 32px;
     height: 32px;
     
+}
+.footer-text{
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and  (max-width: 688px)
+{
+    /* .section-one, .players-info-section, .footer-section {
+        width: 100%;
+    } */
+    /* .text-part, .image-part, .three-players-grid, .football-logo ,.social-media{
+         grid-template-columns: repeat(1, 1fr);
+    }
+    .text-part, .image-part, .player{
+        flex-direction: column;
+    }  */
+
+    .first-part{
+        grid-template-columns: repeat(1, 1fr);    
+        
+    }
+    .text-part, .image-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-part img{
+    width: 329px;
+    height: 4259.17px;
+}
+
+    .players, .football-logo{
+        display: none;
+    }
 }
