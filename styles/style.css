@@ -5,14 +5,17 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    
 }
 /* TOURNAMENT NAME SECTION  */
 
-
 .section-one{
     background-color: #2D25A0; 
+    overflow-x: hidden;
+    background-size: 100%;   
     margin-bottom: 70px;
-    margin-top: 0px;
+    margin-top: -8px;
+    margin-left: -8px;
     
 }
 .first-part{
@@ -25,7 +28,7 @@ body{
     padding-left: 156px;
 }
 .text-part, .image-part{
-    width: 50%;
+    width: 40%;
 }
 .text-part{
     padding-top: 154px;
@@ -39,14 +42,7 @@ body{
     line-height: 80px;
     margin-bottom: 19px;   
 }
-.image-part img{
-    width: 556.01px;
-    height: 438px;
-    padding-top: 135px;
-    padding-right: 144.99px;
-    padding-bottom: 86px;
-    padding-left: 102px;
-}
+
 .arrow{
     display: flex;
     font-size: 16px;
@@ -63,7 +59,14 @@ body{
 .fa-arrow-right{
     color: white;
 }
-
+.image-part img{
+    width: 556.01px;
+    height: 438px;
+    padding-top: 135px;
+    padding-right: 144.99px;
+    padding-bottom: 86px;
+    padding-left: 102px;
+}
 
 
 /* PLAYERS STYLE  */
@@ -78,14 +81,15 @@ body{
 .three-players-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
-    padding-bottom: 30px;
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    /* padding-bottom: 30px; */
 }
 .player{
     border-right: 1px solid white;
     width: 330px;
     height: 474px;
-    padding: 15px;
+    padding: 15px 15px 33px 15px;
     box-shadow: 10px 10px 40px #6C6C6C;
 }
 /* .player{
@@ -105,17 +109,60 @@ body{
     padding-right: 15px;
     padding-bottom: 16px;
 }
-.player-info{
+/* .player-info,{
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;    
-}
+} */
 .player-info h2{
     font-size: 28px;
     text-align: left;
+    width: 300px;
+    height: 40px;
 }
 .player-info p{
     font-size: 16px;
     text-align: left;
+    width: 300px;
+    height: 104px;    
+}
+
+/* FOOTER SECTION */
+
+.footer-section{
+    width: 483.87px;
+    height: 213px;
+    padding-left: 475px;
+    padding-top: 158px;
+    padding-right: 481.13px;
+    padding-bottom: 63px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.football-logo{
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+.football-logo img{
+    width: 483.87px;
+    height: 110px;
+    padding-bottom: 20px;    
+}
+.social-media{
+    width: 170px;
+    height: 32px;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 137px;
+}  
+.social-icons{
+    padding-right: 14px;
+}
+.social-icons img{
+    width: 32px;
+    height: 32px;
     
 }
