@@ -109,16 +109,19 @@ body{
     padding-right: 15px;
     padding-bottom: 16px;
 }
-/* .player-info,{
+.player-info{
+    width: 300px;
+    height: 154px;
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;    
-} */
+}
 .player-info h2{
     font-size: 28px;
     text-align: left;
     width: 300px;
     height: 40px;
+    padding-bottom: 10px;
 }
 .player-info p{
     font-size: 16px;
